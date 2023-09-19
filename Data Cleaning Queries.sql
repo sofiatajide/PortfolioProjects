@@ -10,7 +10,7 @@ From NashvilleHousing
 -- Standardize Date Format
 
 Select saleDateConverted, CONVERT(Date,SaleDate)
-From PortfolioProject.dbo.NashvilleHousing
+From NashvilleHousing
 
 
 Update NashvilleHousing
