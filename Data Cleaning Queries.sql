@@ -9,7 +9,7 @@ From NashvilleHousing
 
 -- Standardize Date Format
 
-Select saleDateConverted, CONVERT(Date,SaleDate)
+Select SaleDateConverted, CONVERT(Date,SaleDate)
 From NashvilleHousing
 
 
